@@ -1,14 +1,13 @@
 //
-//  Start Page.swift
-//  Safety App
+//  Start Page Screen.swift
+//  Safety AppUITests
 //
 //  Created by Hojin Moon on 6/5/23.
 //
-import Foundation
-import SwiftUI
-import CoreData
 
-struct ContentView: View {
+import SwiftUI
+
+struct Start_Page_Screen: View {
     var body: some View {
         ZStack{
             Color("AccentColor")
@@ -18,8 +17,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
+struct Start_Page_Screen_Previews: PreviewProvider {
+    static var previews: some View {
+        Start_Page_Screen()
     }
 }
